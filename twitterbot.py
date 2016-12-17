@@ -3,11 +3,11 @@ from textblob import TextBlob
 
 
 #authorization info
-consumer_key = 'INSERT_CONSUMER_KEY'
-consumer_secret = 'INSERT_CONSUMER_KEY_SECRET'
+consumer_key = 'foo.bar'
+consumer_secret = 'foo.bar'
 
-access_token = 'INSERT_ACCESS_TOKEN'
-access_token_secret =  'INSERT_ACCESS_TOKEN_SECRET'
+access_token = 'foo.bar'
+access_token_secret =  'foo.bar'
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
